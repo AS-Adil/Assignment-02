@@ -202,11 +202,11 @@ nav {
 
 /* lover section============== */
 .lover{
-    margin-top: 100px;
+    margin-top: 200px;
 }
 .lover-sub{
     border:1px solid #E95A08;
-    width: 1140px;
+    max-width: 1140px;
     margin: 0px auto;
     display: flex;
 }
@@ -236,18 +236,31 @@ width: 100%;
     border: 1px solid black;
     padding-left:65px;
     padding-right: 1.1px;
-    /* height: 100%; */
-    height: 521px;
-    margin-bottom: 22px;
+    height: 90%;
+    
+    transform: translateY(-221px);
+
 }
 
 .lover-text-content h1{
 
+font-weight: bold;
+font-size: 3rem;
+font-family: "Noto Serif", serif;
+margin-bottom: 33px;
 
     
 }
 
+.lover-text-content ul{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.1rem;
+    
+}
 
+.lover-text-content ul li{
+    margin-top: 18px;
+}
 
 
 
@@ -363,5 +376,44 @@ width: 100%;
     gap: 18px 15px;
     padding: 0px 8px;
 }
+
+.lover-sub{
+    flex-direction: column;
+}
+
+.badge{
+    display: none;
+}
+
+
+.man{
+    width: 97%;
+}
+.lover-img{
+    padding: 11px;
+}
+.lover-img , .lover-text{
+    width: 100%;
+}
+
+.lover-text-content{
+    width: 97%;
+    transform: translateY(0px);
+}
+
+.lover-text-content h1{
+    font-size: 1.6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 }

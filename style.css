@@ -100,16 +100,17 @@ nav {
 }
 
 .hero-text h1{
-    color: #E95A08;
+        color:#000000 ;
     font-weight: bold;
-    font-size: 4.0625rem;
+    font-size: 3.91rem;
     font-family: "Noto Serif", serif;
     margin-bottom: 7px;
             
 }
 
 .hero-text span{
-    color:#000000 ;
+    
+    color: #E95A08;
 }
 
 .hero-text p{
@@ -140,11 +141,63 @@ nav {
     align-items: center;
 
 }
+
+.our-text h1{
+    font-family: "Noto Serif", serif;
+    font-weight: bold;
+    font-size: 3.125rem;
+}
+.our-text h1 span {
+    color: #E95A08;
+}
 .our-text p {
     max-width: 870px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 16px;
+    margin-bottom: 49px;
+}
+
+.card {
+    border: 1px solid green;
+    /* width: 270px; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    border-radius: 5px;
+    
+}
+.card-text{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    color:rgba(17, 17, 17, 1);
+    font-size: 1.2rem;
+    font-weight: 550;
+}
+
+.btn{
+    width: 100%;
+    padding: 12.6px;
+    background-color: #E95A08;
+    color: #FFFFFF;
+    font-weight: 500;
+    border-radius: 5px;
 }
 
 
+.card-img img{
+    width: 100%;
+}
+.store{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 24px 13px;
+}
 
 
 
@@ -174,7 +227,7 @@ nav {
   }
 
   nav {
-        max-width: 361px;
+        max-width: 98vw;
         justify-content: space-between;
           margin: 0px auto;
         margin-top: 13px;
@@ -195,7 +248,7 @@ nav {
     /* font-weight: bolder; */
     border: 1px solid rgb(255, 140, 0);
     display: block;
-    width: 393px;
+    width: 100vw;
     height: 54px;
     display: flex;
     justify-content: space-around;
@@ -222,21 +275,51 @@ nav {
 
 .hero{
     flex-direction: column;
+    margin-top: 35px;
+    margin-bottom: 50px;
 
 }
 
 .hero-text{
     order: 3;
-    padding: 11px;
+    /* width: 360px; */
+    padding: 0px 17px;
+    margin: 0px auto;
 }
 .hero-text h1{
     font-size: 1.8rem;
     margin-bottom: 13px;
     margin-top: 20px;
 }
+.hero-text p {
+    font-size: 16px;
+    
+}
 
 .hero-img img{
     width: 100%;
+}
+
+
+.our-text p{
+    width: 336px;
+    text-align: center;
+    margin: 16px 0px;
+    
+
+}
+.card{
+    margin-top: 9px;
+}
+
+.our-text h1{
+    font-size: 1.6rem;
+}
+
+.store{
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 18px 15px;
+    padding: 0px 8px;
 }
 
 }

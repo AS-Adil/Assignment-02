@@ -201,11 +201,51 @@ nav {
 
 
 /* lover section============== */
+.lover{
+    margin-top: 100px;
+}
+.lover-sub{
+    border:1px solid #E95A08;
+    width: 1140px;
+    margin: 0px auto;
+    display: flex;
+}
+
+.lover-img{
+    border: 1px solid darkcyan;
+    width: 50%;
+    /* margin-top: 11px; */
+}
+.badge{
+    border: 1px solid tomato;
+    width: 250px;
+    transform:translateX(-170px) translateY(-127px);
+    display: inline;
+    z-index: 2;
+
+}
+.man{
+width: 100%;
+}
+.lover-text{
+    width: 50%;
+
+}
+
+.lover-text-content{
+    border: 1px solid black;
+    padding-left:65px;
+    padding-right: 1.1px;
+    /* height: 100%; */
+    height: 521px;
+    margin-bottom: 22px;
+}
+
+.lover-text-content h1{
 
 
-
-
-
+    
+}
 
 
 

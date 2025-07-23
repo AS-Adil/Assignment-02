@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ======Common styles===== */
+
+.color1 {
+  color: rgba(0, 0, 0, 1);
+}
+.color2 {
+  color: rgba(233, 90, 8, 1);
+}
+
+/* font-family: "Noto Serif", serif; */
+
+/* nav start */
+
+.time-icon{
+    display: none;
+}
+
+nav {
+  border: 1px solid black;
+  max-width: 1140px;
+
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.log0 {
+  width: 135px;
+  height: 80px;
+}
+
+.nav-ul-container {
+  border: 1px solid tomato;
+}
+.nav-links {
+  width: 415px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links li {
+  list-style-type: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+}
+
+.nav-links li:first-child a {
+  color: #252432;
+  font-weight: 700;
+}
+
+.nav-links li:nth-child(2) a,
+.nav-links li:nth-child(3) a {
+  color: #8987a1;
+  font-weight: 400;
+}
+
+.nav-links li:last-child a {
+  font-weight: 400;
+  color: #000000;
+}
+.nav-links li:last-child i {
+  margin-right: 9px;
+}
+
+.fa-light {
+  background-color: red;
+}
+
+
+/* ========Hero ====== */
+
+
+.hero{
+    border: 1px solid red;
+     max-width: 1140px;
+     /* height: 461px; */
+     margin: 120px auto;
+     display: flex;
+     align-items: flex-end;
+     justify-content: center;
+
+}
+
+.hero-text{
+    border: 1px solid cyan;
+}
+
+.hero-text h1{
+    color: #E95A08;
+    font-weight: bold;
+    font-size: 4.0625rem;
+    font-family: "Noto Serif", serif;
+    margin-bottom: 7px;
+            
+}
+
+.hero-text span{
+    color:#000000 ;
+}
+
+.hero-text p{
+    font-size: 1.375rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-img{
+    border: 1px solid;
+}
+
+
+/* ===========our/store================ */
+
+.our{
+    border: 1px solid red;
+    max-width: 1140px;
+    margin: 0px auto;
+
+
+}
+
+.our-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.our-text p {
+    max-width: 870px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========Responsive======== */
+
+@media screen and (max-width: 576px) {
+  .nav-links li:nth-child(1) a,
+  .nav-links li:nth-child(2) a,
+  .nav-links li:nth-child(3) a {
+    display: none;
+  }
+
+  nav {
+        max-width: 361px;
+        justify-content: space-between;
+          margin: 0px auto;
+        margin-top: 13px;
+  }
+
+  .nav-links {
+    border: 1px solid aqua;
+    max-width: 113px;
+    height: 38px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+
+.time-icon{
+    font-size: 1.40rem;
+    /* font-weight: bolder; */
+    border: 1px solid rgb(255, 140, 0);
+    display: block;
+    width: 393px;
+    height: 54px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     margin: 0px auto;
+
+
+}
+
+.time{
+    width: 138px;
+    font-weight: 600;
+    
+}
+.icons{
+    border: 1px solid red;
+    width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+
+.hero{
+    flex-direction: column;
+
+}
+
+.hero-text{
+    order: 3;
+    padding: 11px;
+}
+.hero-text h1{
+    font-size: 1.8rem;
+    margin-bottom: 13px;
+    margin-top: 20px;
+}
+
+.hero-img img{
+    width: 100%;
+}
+
+}

@@ -427,10 +427,23 @@ margin-bottom: 33px;
 
 .join-content{
     border: 1px solid red;
-    width: 70vw ;
+    width: 70vw ;     
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 23px; */
 
 }
-
+.join-content h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 23px;
+    
+    
+}
 .join-content form{
     width: 100%;
     display: flex;
@@ -440,13 +453,27 @@ margin-bottom: 33px;
     width: 70%;
     border-top-left-radius: 7px;
     border-bottom-left-radius: 7px;
+    border: none;
+}
+
+.join-content form input[type="email"]{
+    padding:1.003rem 1.1rem;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+.join-content form input[type="email"]:focus{
+
+    outline: none;
 }
 
 
 .join-content form button{
     width: 30%;
+    column-rule-color: #FFFFFF;
         border-top-right-radius: 7px;
     border-bottom-right-radius: 7px;
+    border: none;
+    font-weight: 500;
 }
 
 
@@ -610,7 +637,15 @@ margin-bottom: 33px;
     font-size: 1rem;
 }
 
+.join{
+    height: 35vh;
+    margin-top: 40px;
+    
+}
 
+.join-content h1{
+    font-size: 1.4rem;
+}
 
 
 

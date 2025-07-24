@@ -279,7 +279,7 @@ margin-bottom: 33px;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    border-radius:14px ;
+    
     align-items: center;
 
 }
@@ -288,15 +288,29 @@ margin-bottom: 33px;
     
     max-width: 854px;
     text-align: center;
+    margin: 100px auto;
     
 
+}
+.deal-text h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.deal-text span {
+    color: #E95A08;
+}
+.deal-text p{
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 16px;
 }
 
 .left-up{
     background-image: url("assets/deal-bloom.png");
     width: 367px;
     height: 200px;
-    border-radius:14px ;
+    
             display: flex;
     flex-direction: column;
     justify-content: center;
@@ -308,7 +322,7 @@ margin-bottom: 33px;
     background-image: url("assets/deal-ana.png");
      width: 367px;
     height: 200px;
-    border-radius:14px ;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -320,13 +334,12 @@ margin-bottom: 33px;
     background:url("assets/deal-zabo.png");
     width: 753px;
     height: 423px;
-    border-radius: 14px;
+   
         display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 22px;
-   background: rgb(200, 200, 200.);
+    
 }
 
 .img-left{
@@ -337,6 +350,11 @@ margin-bottom: 33px;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+
+}
+
+.img-right , .left-up , .left-down{
+    border-radius: 22px;
 
 }
 
@@ -362,6 +380,36 @@ margin-bottom: 33px;
 }
 
 
+
+.left-up,
+.left-down,
+.img-right {
+  position: relative;
+  z-index: 0;
+}
+
+.left-up::before,
+.left-down::before,
+.img-right::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 1;
+  border-radius: 22px;
+}
+
+
+.left-up p,
+.left-down p,
+.img-right p,
+.left-up a,
+.left-down a,
+.img-right a {
+  position: relative;
+  z-index: 2;
+
+}
 
 
 
@@ -504,6 +552,39 @@ margin-bottom: 33px;
 .lover-text-content h1{
     font-size: 1.6rem;
 }
+
+
+
+.deal-img-container{
+    flex-direction: column;
+    gap: 20px;
+}
+
+.img-right{
+    
+   width: 367px;
+  height: 200px;
+}
+
+.deal-img-container p {
+    font-size: 1.3rem;
+}
+.deal-img-container a {
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

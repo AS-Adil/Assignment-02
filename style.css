@@ -24,11 +24,11 @@
 }
 
 nav {
-  border: 1px solid black;
+
   max-width: 1140px;
   margin: 0px auto;
   margin-top: 30px;
-  
+  padding: 5px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -39,9 +39,7 @@ nav {
   height: 80px;
 }
 
-.nav-ul-container {
-  border: 1px solid tomato;
-}
+
 .nav-links {
   width: 415px;
   height: 60px;
@@ -86,20 +84,18 @@ nav {
 
 
 .banner{
-    border: 1px solid red;
+   
      max-width: 1140px;
-     /* height: 461px; */
      margin: 120px auto;
      margin-top: 226px;
      display: flex;
      align-items: flex-end;
      justify-content: center;
+     padding: 5px;
 
 }
 
-.banner-text{
-    border: 1px solid cyan;
-}
+
 
 .banner-text h1{
         color:#000000 ;
@@ -120,17 +116,15 @@ nav {
     color: rgba(0, 0, 0, 0.5);
 }
 
-.banner-img{
-    border: 1px solid;
-}
+
 
 
 /* ===========our/store================ */
 
 .our{
-    border: 1px solid red;
     max-width: 1140px;
     margin: 0px auto;
+    padding: 5px;
 
 
 }
@@ -160,12 +154,10 @@ nav {
 }
 
 .card {
-    border: 1px solid green;
-    /* width: 270px; */
+
     display: flex;
     flex-direction: column;
-    /* justify-content: center;
-    align-items: center; */
+
     border-radius: 5px;
     
 }
@@ -190,12 +182,12 @@ nav {
     font-weight: 500;
     border-radius: 5px;
     border: none;
+    transition: all 0.3s ease, transform 0.3s ease;
     
 }
 
 .btn:hover {
-  box-shadow: 0 4px 12px rgba(233, 90, 8, 0.4); 
-  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.6);
+   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2); 
   transform: scale(1.05);
 
 }
@@ -203,7 +195,10 @@ nav {
 
 .card-img img{
     width: 100%;
+    border-radius: 5px;
+    
 }
+
 .store{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -216,19 +211,19 @@ nav {
     margin-top: 200px;
 }
 .lover-sub{
-    border:1px solid #E95A08;
+    padding: 5px;
     max-width: 1140px;
     margin: 0px auto;
     display: flex;
 }
 
 .lover-img{
-    border: 1px solid darkcyan;
+
     width: 50%;
-    /* margin-top: 11px; */
+
 }
 .badge{
-    border: 1px solid tomato;
+   
     width: 250px;
     transform:translateX(-170px) translateY(-127px);
     display: inline;
@@ -276,7 +271,7 @@ width: 100%;
 }
 
 .lover-text-content{
-    border: 1px solid black;
+    
     padding-left:65px;
     padding-right: 1.1px;
     height: 90%;
@@ -308,7 +303,7 @@ margin-bottom: 33px;
 /* ============Deal Section============ */
 
 .deal{
-    border: 1px solid maroon;
+   
     max-width: 1140px ;
     margin: 0px auto;
     display: flex;
@@ -318,12 +313,13 @@ margin-bottom: 33px;
 
 }
 .deal-img-container{
-    border: 1px solid red;
+    
     width: 100%;
     display: flex;
     justify-content: space-between;
-    
+    gap: 22px;
     align-items: center;
+    padding: 5px;
 
 }
 
@@ -373,7 +369,6 @@ margin-bottom: 33px;
 }
 
 .img-right{
-    /* background-image: url("assets/deal-zabo.png"); */
     background:url("assets/deal-zabo.png");
     width: 753px;
     height: 423px;
@@ -386,7 +381,6 @@ margin-bottom: 33px;
 }
 
 .img-left{
-    /* width: 25%; */
     border-radius:14px ;
     display: flex;
     flex-direction: column;
@@ -470,7 +464,7 @@ margin-bottom: 33px;
 }
 
 .join-content{
-    border: 1px solid red;
+  
     width: 70vw ;     
 
 }
@@ -522,11 +516,10 @@ margin-bottom: 33px;
 
 footer{
     height: 30vh;
-    margin: ;
+    
 }
 .footer-sub{
-    
-    border: 1px solid chocolate;
+    padding: 5px;
     max-width: 1120px;
     margin: 100px auto;
     display: grid;
@@ -535,9 +528,7 @@ footer{
     height: 28vh;
 }
 
-.footer-sub div {
-    border: 1px solid red;
-}
+
 
 .footer-links {
 
@@ -570,9 +561,6 @@ footer{
     font-size: 1.2rem;
 
 }
-.footer-icons img{
-
-}
 
 
 
@@ -592,7 +580,8 @@ footer{
 
 
 
-/* ==========Responsive======== */
+
+/* ==========Responsivness for Movile Device======== */
 
 @media screen and (max-width: 576px) {
   .nav-links li:nth-child(1) a,
@@ -609,7 +598,6 @@ footer{
   }
 
   .nav-links {
-    border: 1px solid aqua;
     max-width: 113px;
     height: 38px;
     display: flex;
@@ -620,8 +608,7 @@ footer{
 
 .time-icon{
     font-size: 1.40rem;
-    /* font-weight: bolder; */
-    border: 1px solid rgb(255, 140, 0);
+
     display: block;
     width: 100vw;
     height: 54px;
@@ -639,7 +626,7 @@ footer{
     
 }
 .icons{
-    border: 1px solid red;
+
     width: 100px;
     display: flex;
     justify-content: space-evenly;
@@ -651,13 +638,12 @@ footer{
 .banner{
     flex-direction: column;
     margin-top: 35px;
-    margin-bottom: 50px;
+    margin-bottom: 85px;
 
 }
 
 .banner-text{
     order: 3;
-    /* width: 360px; */
     padding: 0px 17px;
     margin: 0px auto;
 }
@@ -697,6 +683,9 @@ footer{
     padding: 0px 8px;
 }
 
+.lover{
+    margin-top: 40px;
+}
 .lover-sub{
     flex-direction: column;
 }
@@ -719,6 +708,7 @@ footer{
 .lover-text-content{
     width: 97%;
     transform: translateY(0px);
+    padding-left: 33px;
 }
 
 .lover-text-content h1{
@@ -730,6 +720,10 @@ footer{
 .deal-img-container{
     flex-direction: column;
     gap: 20px;
+}
+.deal-text{
+    margin: 150px auto;
+    margin-bottom: 50px;
 }
 
 .img-right{
@@ -755,6 +749,42 @@ footer{
     font-size: 1.4rem;
 }
 
+    .left-up::before,
+.left-down::before,
+.img-right::before {
+
+  border-radius: 14px;
+}
+    .left-up,
+.left-down ,
+.img-right {
+
+  border-radius: 14 px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .footer-sub{
     grid-template-columns: repeat(1, 1fr);
@@ -762,6 +792,7 @@ footer{
     justify-content: center;
     align-items: center;
     gap: 20px;
+    padding: 2px;
 }
 
 .footer-links{
@@ -784,3 +815,133 @@ footer{
 
 
 }
+
+
+
+/* ============Responsiveness for medium device ========== */
+
+
+@media screen and (min-width:576px) and (max-width:992px){
+
+    nav{
+        justify-content: space-around;
+    }
+
+
+    .banner{
+        margin-top: 111px;
+        padding: 5px;
+    }
+    .banner-text{
+        width: 40%;
+    }
+    .banner-img{
+        width: 60%;
+    }
+
+    .banner-img img{
+        width: 100%;
+    }
+    .banner-text h1 {
+        font-size: 2.8rem;
+    }
+    .banner-text p {
+        font-size: 1.2rem;
+    }
+
+
+    .store{
+        padding: 5px;
+    }
+
+    .lover-sub{
+        padding: 5px;
+    }
+
+    .deal-img-container{
+        justify-content: space-around;
+        
+        
+    }
+
+    .deal-text{
+        margin: 0px auto;
+        margin-bottom: 50px;
+    }
+
+    .img-right{
+
+        width: 55vw;
+        /* width: 60%; */
+        /* height: 60vh; */
+        border-radius: 14px;
+    }
+
+    .img-left {
+        /* width: 33%; */
+    }
+
+    .left-down , .left-up{
+        border-radius: 14px;
+    }
+
+    .left-up::before,
+.left-down::before,
+.img-right::before {
+
+  border-radius: 14px;
+}
+
+
+.join{
+    height: 50vh;
+}
+
+  .footer-sub{
+    padding: 5px;
+  }
+
+
+
+}
+
+
+@media screen and (min-width:576px) and (max-width:830px){
+
+
+    .deal-img-container{
+        flex-direction: column;
+        gap: 22px;
+
+    }
+
+    .img-right, .left-down , .left-up{
+        width: 90vw;
+        height: 40vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .img-right p, .left-down p , .left-up p{
+
+        font-size: 1.5rem;
+
+    }
+    .img-right a, .left-down a , .left-up a{
+
+        font-size: 1.2rem;
+
+    }
+
+    .join{
+        height: 40vh;
+    }
+
+    .lover-text-content{
+        padding-left: 42px;
+    }
+    .lover-text-content h1{
+        font-size: 2rem;
+    }
+    
+} 

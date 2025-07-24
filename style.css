@@ -187,6 +187,7 @@ nav {
     color: #FFFFFF;
     font-weight: 500;
     border-radius: 5px;
+    border: none;
 }
 
 
@@ -521,9 +522,30 @@ footer{
     justify-content: space-evenly;
 
 }
+
+.footer-logo p{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.2rem;
+
+}
 .footer-icons img{
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -692,25 +714,31 @@ footer{
 }
 
 
+.footer-sub{
+    grid-template-columns: repeat(1, 1fr);
+    /* height: 90vh; */
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
 
+.footer-links{
+    flex-direction: column;
+}
+.footer-links div {
+    gap: 32px;
+    
+}
+.footer-links >div {
+    margin-top: 32px;
+    
+}
+.footer-icons{
+    padding-bottom: 52px;
+    justify-content: flex-start;
+    gap: 38px;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 }

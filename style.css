@@ -411,6 +411,43 @@ margin-bottom: 33px;
 
 }
 
+/* ==========join section ============== */
+
+.join{
+    width: 100vw;
+    height: 70vh;
+    background-image: url("assets/news-letter-bg.png");
+    background-size: cover;
+    background-position: center;
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.join-content{
+    border: 1px solid red;
+    width: 70vw ;
+
+}
+
+.join-content form{
+    width: 100%;
+    display: flex;
+
+}
+.join-content form input{
+    width: 70%;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+
+.join-content form button{
+    width: 30%;
+        border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
 
 
 

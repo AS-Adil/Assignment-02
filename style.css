@@ -26,8 +26,9 @@
 nav {
   border: 1px solid black;
   max-width: 1140px;
-
   margin: 0px auto;
+  margin-top: 30px;
+  
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -81,25 +82,26 @@ nav {
 }
 
 
-/* ========Hero ====== */
+/* ========banner====== */
 
 
-.hero{
+.banner{
     border: 1px solid red;
      max-width: 1140px;
      /* height: 461px; */
      margin: 120px auto;
+     margin-top: 226px;
      display: flex;
      align-items: flex-end;
      justify-content: center;
 
 }
 
-.hero-text{
+.banner-text{
     border: 1px solid cyan;
 }
 
-.hero-text h1{
+.banner-text h1{
         color:#000000 ;
     font-weight: bold;
     font-size: 3.91rem;
@@ -108,17 +110,17 @@ nav {
             
 }
 
-.hero-text span{
+.banner-text span{
     
     color: #E95A08;
 }
 
-.hero-text p{
+.banner-text p{
     font-size: 1.375rem;
     color: rgba(0, 0, 0, 0.5);
 }
 
-.hero-img{
+.banner-img{
     border: 1px solid;
 }
 
@@ -606,30 +608,30 @@ footer{
 }
 
 
-.hero{
+.banner{
     flex-direction: column;
     margin-top: 35px;
     margin-bottom: 50px;
 
 }
 
-.hero-text{
+.banner-text{
     order: 3;
     /* width: 360px; */
     padding: 0px 17px;
     margin: 0px auto;
 }
-.hero-text h1{
+.banner-text h1{
     font-size: 1.8rem;
     margin-bottom: 13px;
     margin-top: 20px;
 }
-.hero-text p {
+.banner-text p {
     font-size: 16px;
     
 }
 
-.hero-img img{
+.banner-img img{
     width: 100%;
 }
 

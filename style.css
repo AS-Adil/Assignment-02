@@ -613,6 +613,13 @@ footer {
   cursor: pointer;
 }
 
+.footer-icons div:nth-child(2) {
+  margin-top: 11px;
+}
+.footer-icons div:nth-child(1) {
+  margin-top: 4.5px;
+}
+
 .footer-logo img {
   transition: transform 0.3s;
 }

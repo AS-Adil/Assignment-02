@@ -33,7 +33,7 @@ nav {
   justify-content: space-between;
 }
 
-.log0 {
+.logo {
   width: 135px;
   height: 80px;
 }
@@ -97,6 +97,21 @@ nav {
   margin-bottom: 7px;
 }
 
+.banner-text {
+  animation: slideInText 1s ease forwards;
+}
+
+@keyframes slideInText {
+  from {
+    transform: translateX(-33px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
 .banner-text span {
   color: #e95a08;
 }
@@ -104,6 +119,21 @@ nav {
 .banner-text p {
   font-size: 1.375rem;
   color: rgba(0, 0, 0, 0.5);
+}
+
+.banner-img {
+  animation: slideInImage 1s ease forwards;
+}
+
+@keyframes slideInImage {
+  from {
+    transform: translateX(44px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
 }
 
 /* ===========our/store================ */
@@ -573,6 +603,22 @@ footer {
 .footer-icons {
   display: flex;
   justify-content: space-evenly;
+}
+
+.footer-icons > div > img {
+  transition: transform 0.3s;
+}
+.footer-icons > div > img:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+}
+
+.footer-logo img {
+  transition: transform 0.3s;
+}
+.footer-logo img:hover {
+  cursor: pointer;
+  transform: scale(1.05);
 }
 
 .footer-logo p {
